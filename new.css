@@ -1,0 +1,66 @@
+nav {
+  font-family: fantasy;
+}
+
+h1 {
+  font-family: fantasy;
+  text-align: center;
+}
+
+h5 {
+  font-family: fantasy;
+  color: #000000;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family: fantasy;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  display: flex;
+}
+
+.card-header {
+  background-color: #BDB76B;
+}
+
+.card-body {
+  background-color: black;
+}
+
+.column {
+  float:left;
+  width: 33.3%;
+  padding: 20px;
+  display: inline-block;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  display: inline-block;
+}
+
+img {
+  float: left;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10%;
+  display: flex;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
